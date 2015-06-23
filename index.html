@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ribbon theme for Shower</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="components/shower-ribbon/styles/screen.css">
+	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+	<style>
+		.flex-container{
+			display: flex;
+			justify-content: space-around;
+		}
+		.slide.title::after{
+			content: none;
+		}
+		.slide.less-fs h2{
+			font-size: 70px;
+		}
+		.slide.more-fs{
+			font-size: 170%;
+		}
+		.slide.m-fs{
+			font-size: 150%;
+		}
+		.slide.l-fs{
+			font-size: 120%;
+		}
+		.slide.min-fs{
+			font-size: 115%;
+		}
+		.slide .less-lh code{
+			line-height: 1;
+		}
+		.slide .m-lh code{
+			line-height: 1.5;
+		}
+		pre.no-num code:before{
+			content: none;
+		}
+		.slide.no-margin p{
+			margin: 0;
+		}
+	</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Cobalt.</h1>
+	</header>
+	<article class="slide" id="cobaltFp"><div>
+		<h2>Cobalt</h2>
+		<img src="images/cobalt.png" height="310" width="280" alt="">
+		<style>
+				#cobaltFp h2{
+					position: absolute;
+					left: 550px;
+					font-size: 140px;
+					top: 262px;
+					color: rgb(63, 84, 133);
+				}
+				#cobaltFp img{
+					position: absolute;
+					top: 170px;
+					left: 140px;
+				}
+		</style>
+	</div></article>
+	<article class="slide m-fs"><div>
+		<h2>Cobalt</h2>
+		<p>Платформа для розробки презентацій</p>
+	</div></article>
+	<article class="slide m-fs" id="coComp"><div>
+		<h2>Складові</h2>
+		<ul>
+			<li>Скаффолдинг (Slush)</li>
+			<li>Core</li>
+			<li>CommonJS (Browserify)</li>
+			<li>MVC (Rivets)</li>
+			<li>Cobalt модулі</li>
+			<li>Builds (Gulp)</li>
+		</ul>
+		<style>
+			#coComp{
+				line-height: 1.5;
+			}
+		</style>
+	</div></article>
+
+    <article class="slide">
+        <img src="images/slush.png" style="margin: 50px auto; height: 500px; display: block;">
+    </article>
+
+    <article class="slide">
+        <img src="images/gulp.png" style="margin: 50px auto; height: 500px; display: block;">
+    </article>
+
+   	<article class="slide shout">
+   		<div>
+			<h2>Core</h2>
+		</div>
+	</article>
+
+   	<article class="slide shout">
+   		<div>
+			<h2>Rivets.js</h2>
+		</div>
+	</article>
+
+	<article class="slide">
+        <img src="images/browserify.png" style="margin: 105px auto; height: 460px; display: block">
+    </article>
+
+    <article class="slide shout">
+   		<div>
+			<h2>Cobalt modules</h2>
+		</div>
+	</article>
+
+	<article class="slide" id="coInstall"><div>
+		<h2>Установка</h2>
+		<p>
+			<code>npm i -g git+https://git.cobalt-engine.com/cobalt/co-cli.git</code>
+		</p>
+		<style>
+			#coInstall{
+				font-size: 17px;
+			}
+		</style>
+	</div></article>
+	<article class="slide m-fs"><div>
+		<h2>Реєстрація</h2>
+		<p><a target="_blank" href="https://docs.google.com/spreadsheets/d/1Z-yQqoVXT6VixFeqz38aH9YTM7x4nRhN64Of5BEMaYM/edit#gid=0">я хочу вспомнить свою почту</a></p>
+		<p>Пароль: 1</p>
+	</div></article>
+
+
+	<div class="progress"><div></div></div>
+	<script src="components/shower-core/shower.min.js"></script>
+	<!-- Copyright © 2013 Yours Truly, Famous Inc. -->
+</body>
+</html>
